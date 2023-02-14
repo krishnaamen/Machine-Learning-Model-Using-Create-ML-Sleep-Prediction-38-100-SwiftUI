@@ -11,6 +11,7 @@
 		B1B8E26C299B7A3B004B2DDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B8E26B299B7A3B004B2DDA /* ContentView.swift */; };
 		B1B8E26E299B7A3E004B2DDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B8E26D299B7A3E004B2DDA /* Assets.xcassets */; };
 		B1B8E272299B7A3E004B2DDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B8E271299B7A3E004B2DDA /* Preview Assets.xcassets */; };
+		B1B8E27B299B92BC004B2DDA /* SleepPredictor.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B1B8E27A299B92BC004B2DDA /* SleepPredictor.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		B1B8E26D299B7A3E004B2DDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1B8E26F299B7A3E004B2DDA /* ML_project.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ML_project.entitlements; sourceTree = "<group>"; };
 		B1B8E271299B7A3E004B2DDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1B8E27A299B92BC004B2DDA /* SleepPredictor.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepPredictor.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		B1B8E268299B7A3B004B2DDA /* ML-project */ = {
 			isa = PBXGroup;
 			children = (
+				B1B8E27A299B92BC004B2DDA /* SleepPredictor.mlmodel */,
 				B1B8E269299B7A3B004B2DDA /* ML_projectApp.swift */,
 				B1B8E26B299B7A3B004B2DDA /* ContentView.swift */,
 				B1B8E26D299B7A3E004B2DDA /* Assets.xcassets */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1B8E27B299B92BC004B2DDA /* SleepPredictor.mlmodel in Sources */,
 				B1B8E26C299B7A3B004B2DDA /* ContentView.swift in Sources */,
 				B1B8E26A299B7A3B004B2DDA /* ML_projectApp.swift in Sources */,
 			);
